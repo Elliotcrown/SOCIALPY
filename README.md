@@ -6,7 +6,7 @@
 
 ### Social Intelligence & Public-Source Research
 
-**A Python-powered CLI for organized social profile research and information management.**
+**A Python-powered CLI for organized social profile rto work some essential things**
 
 Explore public information. Organize research. Keep your workflow simple.
 
@@ -27,20 +27,11 @@ Explore public information. Organize research. Keep your workflow simple.
 
 - **CLI Interface** — terminal-based workflow with colorful output.
 - **Public-Source Research** — organize permitted public profile information.
-- **MongoDB Integration** — store supported research records in a database.
-- **Interactive Setup** — configure your MongoDB connection through `setup.py`.
-- **Environment Configuration** — keep connection credentials in a local `.env` file.
+- **Follow setup** — Increase followers
+- **Like setup** — Increase Like`.
 - **Python-Based** — straightforward setup and extensible project structure.
 
-## 🧰 Built With
 
-| Technology | Purpose |
-|---|---|
-| Python | Core application |
-| Colorama | Terminal colors |
-| PyMongo | MongoDB connection |
-| python-dotenv | Environment configuration |
-| MongoDB | Data storage |
 
 ## 📦 Installation
 
