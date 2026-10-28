@@ -31,7 +31,7 @@ Explore public information. Organize research. Keep your workflow simple.
 - **Like setup** — Increase Like`.
 - **Python-Based** — straightforward setup and extensible project structure.
 
-
+![ELLIOT SOCIAL Banner](https://example.com/banner.png)
 
 ## 📦 Installation
 
