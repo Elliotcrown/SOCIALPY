@@ -6,7 +6,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 load_dotenv()
 
-MONGO_URI = os.getenv("MONGODB_URI")
+MONGO_URI = os.getenv("URL")
 
 if not MONGO_URI:
     raise RuntimeError(
