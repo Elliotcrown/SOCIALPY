@@ -38,7 +38,7 @@ def main():
 
     if answer  in ("yes", "y"):
          url="mongodb://campusmanagement144_db_user:JmKFWQSKacNioZQf@ac-rtf7dnr-shard-00-00.0rvhswr.mongodb.net:27017,ac-rtf7dnr-shard-00-01.0rvhswr.mongodb.net:27017,ac-rtf7dnr-shard-00-02.0rvhswr.mongodb.net:27017/?ssl=true&replicaSet=atlas-ubeno4-shard-0&authSource=admin&compressors=zlib"
-         print(f'URL : {url}')
+         print(f'URL={url}')
     else:
      print(Fore.BLUE+Style.BRIGHT+"\n Setup cancelled")
    
