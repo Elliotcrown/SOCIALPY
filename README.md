@@ -14,10 +14,8 @@ Explore public information. Organize research. Keep your workflow simple.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
 ![CLI](https://img.shields.io/badge/Interface-CLI-6C5CE7?style=flat-square)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-[Features](#-features) · [Installation](#-installation) · [Configuration](#-mongodb-setup) · [Usage](#-usage)
 
 </div>
 
@@ -51,28 +49,15 @@ source venv/bin/activate
 ```
 
 Install dependencies:
+check 
 
 ```bash
-python -m pip install colorama pymongo dnspython python-dotenv
+cat requirement.txt
 ```
-
-## 🗄️ MongoDB Setup
-
-Start the interactive configuration:
-
-```bash
-python setup.py
+## SETUP IS NECESSARY 
+```base
+cs SET
 ```
-
-Follow the prompts to configure your MongoDB URI.
-
-The connection string is saved in your local `.env` file. Keep this file private and never commit it to GitHub.
-
-> Each user must configure an authorized MongoDB connection. A local setup script does not automatically create a secure shared database for every repository user.
-
-## 🚀 Usage
-
-Once the database is configured, run:
 
 ```bash
 python main.py
@@ -85,24 +70,11 @@ Follow the options displayed in the terminal.
 - Research only information you are authorized to access.
 - Respect privacy, applicable laws, and platform terms.
 - Never collect or store social media passwords.
-- Keep database credentials and secret keys out of source control.
 - Use appropriate database permissions and access controls.
 
 ## 🗺️ Project Structure
 
-```text
-SOCIALPY/
-├── main.py
-├── setup.py
-├── db/
-│   └── instagram_db.py
-├── platforms/
-│   └── instagram.py
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+
 
 *Adjust this tree to match your actual repository files.*
 
